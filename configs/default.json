@@ -1,0 +1,36 @@
+{
+  "expt_name": "deafult",
+  "gpu_id": "0",
+
+  "train_filepath": "./data/tsp20_concorde_5000_train.bin",
+  "val_filepath": "./data/tsp20_concorde_500_test.bin",
+  "test_filepath": "./data/tsp20_concorde_500_val.bin",
+    
+  "train_num_samples": 5000,
+  "val_num_samples": 500,
+  "test_num_samples": 500,
+
+
+  "num_nodes": 20,
+  "num_neighbors": -1,
+    
+  "node_dim": 2,
+  "voc_nodes_in": 2,
+  "voc_nodes_out": 2,
+  "voc_edges_in": 3,
+  "voc_edges_out": 2,
+
+  "beam_size": 1280,
+
+  "hidden_dim": 25,
+  "num_layers": 3,
+  "mlp_layers": 2,
+
+  "num_epochs": 30,
+
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "decay_rate": 1.01,
+  
+  "pre_trained": 0
+}
