@@ -5,7 +5,7 @@ More to go:
 GAT
 
 
-# Uasge
+# Usage
 This is only a sample 
 
 `python train.py`
