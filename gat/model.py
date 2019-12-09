@@ -128,7 +128,7 @@ class GraphAttentionEncoder(nn.Module):
             for _ in range(n_layers)
             ])
 
-    def forward(self, bg, feat):
+    def forward(self, g, feat):
         feat = self.init_embed(feat)
         for layer in self.layers:
             feat = layer(g,feat)
