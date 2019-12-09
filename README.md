@@ -3,7 +3,7 @@ This repository contains dgl version of code for the paper [An Efficient Graph C
 
 More to go:
 
-- [] GAT
+- [ ] GAT
 
 
 # Usage
